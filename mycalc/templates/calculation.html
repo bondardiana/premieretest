@@ -1,0 +1,13 @@
+<h1>Calculation</h1>
+
+<form method="post" action="{% url 'calculation' %}">
+    {% csrf_token %}
+    <input type="text" name="input_data" placeholder="Input Data" required>
+    <button type="submit">Calculate</button>
+</form>
+
+<ul>
+    {% for calculation in calculations %}
+        <li>{{ calculation.input_data }} = {{ calculation.output_data }}</li>
+    {% endfor %}
+</ul>
