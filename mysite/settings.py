@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-p9dc!ox!i=d!vcd%w_7nl%g^##)6)k6he)pm$tho=l_vfqkblh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['premierrestaurantcalculator.azurewebsites.net']
 
 
 # Application definition
