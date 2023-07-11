@@ -10,21 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-# settings.py
-
-# Required Django-Storages Configuration
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
-# AWS S3 Configuration
-AWS_ACCESS_KEY_ID = '799241150003
-AWS_SECRET_ACCESS_KEY = 'your-secret-access-key'
-AWS_STORAGE_BUCKET_NAME = 'your-bucket-name'
-AWS_S3_REGION_NAME = 'eu-north-1'  # e.g., 'us-east-1'
-AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
-
-
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
