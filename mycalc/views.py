@@ -8,9 +8,9 @@ from django.http import HttpResponse
 #from reportlab.lib import colors
 #from reportlab.lib.styles import getSampleStyleSheet
 from django.shortcuts import render
-#from reportlab.pdfbase import pdfmetrics
-#from reportlab.pdfbase.ttfonts import TTFont
-#pdfmetrics.registerFont(TTFont('Adine_Kirnberg_Regular', 'Adine_Kirnberg_Regular.ttf'))
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+pdfmetrics.registerFont(TTFont('Adine_Kirnberg_Regular', 'Adine_Kirnberg_Regular.ttf'))
 
 datas = {
         '1': ['Салати', 'Салат Цезар з куркою та беконом',  240, 'salad_cesar.jpg'],
