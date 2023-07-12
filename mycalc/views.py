@@ -4,6 +4,8 @@ from django import forms
 from .models import Calculation, Calculationdb
 from django.http import HttpResponse
 
+from django.shortcuts import render
+from django.conf import settings
 
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Image, Spacer
@@ -12,7 +14,10 @@ from reportlab.lib.styles import getSampleStyleSheet
 from django.shortcuts import render
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-pdfmetrics.registerFont(TTFont('Adine_Kirnberg_Regular', 'Adine_Kirnberg_Regular.ttf'))
+import os
+
+fp2 = "static/fonts/Adine_Kirnberg_Regular.ttf"
+pdfmetrics.registerFont(TTFont('Adine_Kirnberg_Regular',  fp2))
 
 datas = {
         '1': ['Салати', 'Салат Цезар з куркою та беконом',  240, 'salad_cesar.jpg'],
