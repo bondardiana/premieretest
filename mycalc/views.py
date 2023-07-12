@@ -67,7 +67,7 @@ def calculation(request):
                 data = form.cleaned_data  # Get the cleaned data from the form
                 all_data.append(data)
 
-        generate_pdf(all_data)
+        #generate_pdf(all_data)
         return render(request, 'success.html')
 
     else:
