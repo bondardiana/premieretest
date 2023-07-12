@@ -1,0 +1,512 @@
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mysite/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 67, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 33, in generate_pdf
+    logger.debug()
+TypeError: Logger.debug() missing 1 required positional argument: 'msg'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 67, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 33, in generate_pdf
+    logger.debug("hi")
+    ^^^^^^^^^^^^^^
+TypeError: Logger.debug() missing 1 required positional argument: 'msg'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 66, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 36, in generate_pdf
+    e = element.cleaned_data['element']
+        ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'cleaned_data'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 66, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 38, in generate_pdf
+    mytable.append(datas[int(i)])
+                   ~~~~~^^^^^^^^
+KeyError: 0
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 67, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 39, in generate_pdf
+    mytable.append(datas[int(i)])
+                   ~~~~~^^^^^^^^
+KeyError: 0
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 67, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 39, in generate_pdf
+    mytable.append(datas[int(i)])
+                   ~~~~~^^^^^^^^
+KeyError: 0
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 67, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 54, in generate_pdf
+    pdf.build([table])
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1082, in build
+    self.handle_flowable(flowables)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 931, in handle_flowable
+    if frame.add(f, canv, trySplit=self.allowSplitting):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/frames.py", line 169, in _add
+    w, h = flowable.wrap(aW, h)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 1317, in wrap
+    self._calc(availWidth, availHeight)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 732, in _calc
+    self._calc_height(availHeight,availWidth,W=W)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 656, in _calc_height
+    dW,t = self._listCellGeom(v,w or self._listValueWidth(v),s)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in _listValueWidth
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in <listcomp>
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+                ^^^^^^^^
+AttributeError: 'str' object has no attribute 'wrapOn'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 67, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 39, in generate_pdf
+    mytable.append(datas.str(i+1))
+                   ^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'str'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 67, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 54, in generate_pdf
+    pdf.build([table])
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1082, in build
+    self.handle_flowable(flowables)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 931, in handle_flowable
+    if frame.add(f, canv, trySplit=self.allowSplitting):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/frames.py", line 169, in _add
+    w, h = flowable.wrap(aW, h)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 1317, in wrap
+    self._calc(availWidth, availHeight)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 732, in _calc
+    self._calc_height(availHeight,availWidth,W=W)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 656, in _calc_height
+    dW,t = self._listCellGeom(v,w or self._listValueWidth(v),s)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in _listValueWidth
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in <listcomp>
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+                ^^^^^^^^
+AttributeError: 'str' object has no attribute 'wrapOn'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 68, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 55, in generate_pdf
+    pdf.build([table])
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1082, in build
+    self.handle_flowable(flowables)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 931, in handle_flowable
+    if frame.add(f, canv, trySplit=self.allowSplitting):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/frames.py", line 169, in _add
+    w, h = flowable.wrap(aW, h)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 1317, in wrap
+    self._calc(availWidth, availHeight)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 732, in _calc
+    self._calc_height(availHeight,availWidth,W=W)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 656, in _calc_height
+    dW,t = self._listCellGeom(v,w or self._listValueWidth(v),s)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in _listValueWidth
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in <listcomp>
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+                ^^^^^^^^
+AttributeError: 'str' object has no attribute 'wrapOn'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 68, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 39, in generate_pdf
+    mytable.append(datas[e])
+                   ~~~~~^^^
+TypeError: unhashable type: 'dict'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 68, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 55, in generate_pdf
+    pdf.build(table)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1057, in build
+    flowableCount = len(flowables)
+                    ^^^^^^^^^^^^^^
+TypeError: object of type 'Table' has no len()
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 68, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 55, in generate_pdf
+    pdf.build(table)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1057, in build
+    flowableCount = len(flowables)
+                    ^^^^^^^^^^^^^^
+TypeError: object of type 'Table' has no len()
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 69, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 56, in generate_pdf
+    pdf.build(table)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1057, in build
+    flowableCount = len(flowables)
+                    ^^^^^^^^^^^^^^
+TypeError: object of type 'Table' has no len()
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 69, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 56, in generate_pdf
+    pdf.build([table])
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1082, in build
+    self.handle_flowable(flowables)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 931, in handle_flowable
+    if frame.add(f, canv, trySplit=self.allowSplitting):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/frames.py", line 169, in _add
+    w, h = flowable.wrap(aW, h)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 1317, in wrap
+    self._calc(availWidth, availHeight)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 732, in _calc
+    self._calc_height(availHeight,availWidth,W=W)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 656, in _calc_height
+    dW,t = self._listCellGeom(v,w or self._listValueWidth(v),s)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in _listValueWidth
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in <listcomp>
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+                ^^^^^^^^
+AttributeError: 'str' object has no attribute 'wrapOn'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 70, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 57, in generate_pdf
+    pdf.build([table])
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1317, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 1082, in build
+    self.handle_flowable(flowables)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/doctemplate.py", line 931, in handle_flowable
+    if frame.add(f, canv, trySplit=self.allowSplitting):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/frames.py", line 169, in _add
+    w, h = flowable.wrap(aW, h)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 1317, in wrap
+    self._calc(availWidth, availHeight)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 732, in _calc
+    self._calc_height(availHeight,availWidth,W=W)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 656, in _calc_height
+    dW,t = self._listCellGeom(v,w or self._listValueWidth(v),s)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in _listValueWidth
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/tables.py", line 508, in <listcomp>
+    return max([v.wrapOn(canv,aW,aH)[0] for v in V])
+                ^^^^^^^^
+AttributeError: 'str' object has no attribute 'wrapOn'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 67, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 31, in generate_pdf
+    logger.debug("hi")
+    ^^^^^^
+NameError: name 'logger' is not defined
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 70, in calculation
+    generate_pdf(all_data)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 50, in generate_pdf
+    ('GRID', (0, 0), (-1, -1), 1, colors.grey)
+TypeError: 'tuple' object is not callable
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
