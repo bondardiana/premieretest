@@ -73,6 +73,5 @@ def calculation(request):
     else:
         forms = [Calculation(prefix=f'form{i}') for i in range(20)]
 
-
     #return render(request, 'my_form.html', {'forms': forms, 'datas': datas})
     return render(request, 'my_form.html', {'forms_data': zip(forms, [[x[0], x[1]] for x in datas.values()])})
