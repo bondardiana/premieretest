@@ -3,14 +3,14 @@ from django import forms
 # Create your views here.
 from .models import Calculation, Calculationdb
 from django.http import HttpResponse
-from reportlab.lib.pagesizes import letter
-from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Image, Spacer
-from reportlab.lib import colors
-from reportlab.lib.styles import getSampleStyleSheet
+#from reportlab.lib.pagesizes import letter
+#from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Image, Spacer
+#from reportlab.lib import colors
+#from reportlab.lib.styles import getSampleStyleSheet
 from django.shortcuts import render
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-pdfmetrics.registerFont(TTFont('Adine_Kirnberg_Regular', 'Adine_Kirnberg_Regular.ttf'))
+#from reportlab.pdfbase import pdfmetrics
+#from reportlab.pdfbase.ttfonts import TTFont
+#pdfmetrics.registerFont(TTFont('Adine_Kirnberg_Regular', 'Adine_Kirnberg_Regular.ttf'))
 
 datas = {
         '1': ['Салати', 'Салат Цезар з куркою та беконом',  240, 'salad_cesar.jpg'],
@@ -71,7 +71,7 @@ def calculation(request):
         return render(request, 'success.html')
 
     else:
-        forms = [Calculation(prefix=f'form{i}') for i in range(20)]
+        forms = [Calculation(prefix=f'form{i}') for i in range(12)]
 
     #return render(request, 'my_form.html', {'forms': forms, 'datas': datas})
     return render(request, 'my_form.html', {'forms_data': zip(forms, [[x[0], x[1]] for x in datas.values()])})
