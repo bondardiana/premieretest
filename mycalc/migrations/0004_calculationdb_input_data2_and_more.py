@@ -7,7 +7,7 @@ import mycalc.models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ("my calc", "0003_calculationdb_delete_calculation"),
+        ("mycalc", "0003_calculationdb_delete_calculation"),
     ]
 
     operations = [

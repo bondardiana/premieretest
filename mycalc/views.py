@@ -3,10 +3,10 @@ from django import forms
 # Create your views here.
 from .models import Calculation, Calculationdb
 from django.http import HttpResponse
-#from reportlab.lib.pagesizes import letter
-#from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Image, Spacer
-#from reportlab.lib import colors
-#from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.pagesizes import letter
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Image, Spacer
+from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet
 from django.shortcuts import render
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -67,11 +67,12 @@ def calculation(request):
                 data = form.cleaned_data  # Get the cleaned data from the form
                 all_data.append(data)
 
-        #generate_pdf(all_data)
+        generate_pdf(all_data)
         return render(request, 'success.html')
 
     else:
-        forms = [Calculation(prefix=f'form{i}') for i in range(12)]
+        forms = [Calculation(prefix=f'form{i}') for i in range(20)]
+
 
     #return render(request, 'my_form.html', {'forms': forms, 'datas': datas})
     return render(request, 'my_form.html', {'forms_data': zip(forms, [[x[0], x[1]] for x in datas.values()])})
