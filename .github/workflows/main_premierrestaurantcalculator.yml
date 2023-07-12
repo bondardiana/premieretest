@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'premierrestaurantcalculator'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6ECAE3A464F2426AB70AEAECD89C51C1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F7F1A921F47846FCBC61E9BEA27C2EA4 }}
