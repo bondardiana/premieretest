@@ -1105,3 +1105,58 @@ Traceback (most recent call last):
 ValueError: <Table@0x104AEDDD0 1 rows x 0 cols>... must have at least a row and column
 /Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
 Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/lib/utils.py", line 523, in open_for_read
+    return open_for_read_by_name(name,mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/lib/utils.py", line 463, in open_for_read_by_name
+    return open(name,mode)
+           ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'images/soup_okroshka.jpg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/lib/utils.py", line 530, in open_for_read
+    return BytesIO((datareader if name[:5].lower()=='data:' else rlUrlRead)(name))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/lib/utils.py", line 476, in rlUrlRead
+    return urlopen(name).read()
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 503, in open
+    req = Request(fullurl, data)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 322, in __init__
+    self.full_url = url
+    ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 348, in full_url
+    self._parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 377, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'images/soup_okroshka.jpg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 119, in calculation
+    pdf_name = generate_pdf(all_data)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 58, in generate_pdf
+    image = Image(imagename)
+            ^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/platypus/flowables.py", line 424, in __init__
+    f = open_for_read(filename, 'b')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/reportlab/lib/utils.py", line 532, in open_for_read
+    raise IOError('Cannot open resource "%s"' % name)
+OSError: Cannot open resource "images/soup_okroshka.jpg"
