@@ -71,19 +71,16 @@ def generate_pdf(all_data):
 def calculation(request):
     all_data = []
     if request.method == 'POST':
-        for i in range(1, 13):
+        for i in range(0, 13):
             form = Calculation(request.POST, prefix=f'form{i}')
             if form.is_valid():
                 data = form.cleaned_data  # Get the cleaned data from the form
                 all_data.append(data)
 
-        mypdf = generate_pdf(all_data)
+        pdf_name = generate_pdf(all_data)
 
-        with open(mypdf, "rb") as file:
-            # Create an HttpResponse object with the file content
+        with open(pdf_name, "rb") as file:
             response = HttpResponse(file.read(), content_type="application/pdf")
-
-            # Set the Content-Disposition header to trigger a file download
             response["Content-Disposition"] = 'attachment; filename="example.pdf"'
 
         #response = FileResponse(mypdf)

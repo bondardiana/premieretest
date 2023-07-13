@@ -1,10 +1,26 @@
 <h1>Calculation</h1>
+<style>
+    .form-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+         padding: 0px;
+    }
+
+    .form-counter {
+        margin-right: 10px;
+    }
+</style>
 
 <form method="post" novalidate>
     {% csrf_token %}
+
     {% for form, data in forms_data %}
-        <h4> {{ forloop.counter }} {{data}} </h4>
-        {{ form.as_p }}
+        <div class="form-row">
+            <div class="form-counter">{{ forloop.counter }}</div>
+            <div class="form-counter">{{ form.as_p }}</div>
+            <div class="form-counter">{{data}}</div>
+        </div>
     {% endfor %}
     <button type="submit">Submit</button>
 

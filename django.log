@@ -701,3 +701,82 @@ Traceback (most recent call last):
 AttributeError: 'SimpleDocTemplate' object has no attribute 'safe'
 /Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
 Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 76, in calculation
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/forms/forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/forms/forms.py", line 200, in errors
+    self.full_clean()
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/forms/forms.py", line 439, in full_clean
+    self._post_clean()
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/forms/models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 708, in run_validators
+    v(value)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/models.py", line 9, in validate_integer_only
+    if not value.isnumeric():
+           ^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'isnumeric'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 76, in calculation
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/forms/forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/forms/forms.py", line 200, in errors
+    self.full_clean()
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/forms/forms.py", line 439, in full_clean
+    self._post_clean()
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/forms/models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 708, in run_validators
+    v(value)
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/models.py", line 9, in validate_integer_only
+    if not value.isnumeric():
+           ^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'isnumeric'
