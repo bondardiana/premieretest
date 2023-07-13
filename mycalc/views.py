@@ -43,7 +43,7 @@ def generate_pdf(all_data):
         print('lol')
         print(i, e)
         n = e['input_data']
-        if n != "0":
+        if n != 0:
             r = datas[str(i + 1)]
             row = [r[0], r[1], r[2], n, int(n)*int(r[2])]
             mytable.append(row)

@@ -780,3 +780,7 @@ Traceback (most recent call last):
     if not value.isnumeric():
            ^^^^^^^^^^^^^^^
 AttributeError: 'int' object has no attribute 'isnumeric'
+/Users/dbond2/Desktop/premieretest-master/mycalc/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader

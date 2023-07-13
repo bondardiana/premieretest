@@ -10,7 +10,7 @@ def validate_integer_only(value):
         raise ValidationError("Тільки числові значення")
 
 class Calculationdb(models.Model):
-    input_data = models.IntegerField(max_length=100, validators = [validate_integer_only], default ='0')
+    input_data = models.IntegerField(max_length=100,  default = 0 )
 
 
 class Calculation(forms.ModelForm):
