@@ -27,8 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['premierrestaurantcalculator.azurewebsites.net', '127.0.0.1']
 
-
-CSRF_TRUSTED_ORIGINS = ['https://premierrestaurantcalculator.azurewebsites.net/']
+CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = ['https://premierrestaurantcalculator.azurewebsites.net']
 
 # Application definition
 
