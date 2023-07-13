@@ -576,3 +576,128 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /Users/dbond2/Desktop/premieretest-master/mysite/settings.py changed, reloading.
 Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 80, in calculation
+    response = FileResponse(mypdf)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 494, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 444, in __init__
+    self.streaming_content = streaming_content
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 466, in streaming_content
+    self._set_streaming_content(value)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 499, in _set_streaming_content
+    return super()._set_streaming_content(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 470, in _set_streaming_content
+    self._iterator = iter(value)
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 80, in calculation
+    response = FileResponse(mypdf)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 494, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 444, in __init__
+    self.streaming_content = streaming_content
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 466, in streaming_content
+    self._set_streaming_content(value)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 499, in _set_streaming_content
+    return super()._set_streaming_content(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 470, in _set_streaming_content
+    self._iterator = iter(value)
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 80, in calculation
+    response = FileResponse(mypdf)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 494, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 444, in __init__
+    self.streaming_content = streaming_content
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 466, in streaming_content
+    self._set_streaming_content(value)
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 499, in _set_streaming_content
+    return super()._set_streaming_content(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/http/response.py", line 470, in _set_streaming_content
+    self._iterator = iter(value)
+                     ^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 81, in calculation
+    mypdf = generate_pdf(all_data)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dbond2/Desktop/premieretest-master/mycalc/views.py", line 68, in generate_pdf
+    pdf.safe()
+    ^^^^^^^^
+AttributeError: 'SimpleDocTemplate' object has no attribute 'safe'
+/Users/dbond2/Desktop/premieretest-master/mycalc/views.py changed, reloading.
+Watching for file changes with StatReloader

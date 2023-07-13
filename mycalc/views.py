@@ -6,6 +6,7 @@ from django.http import HttpResponse
 
 from django.shortcuts import render
 from django.conf import settings
+from django.http import FileResponse
 
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Image, Spacer
@@ -60,10 +61,12 @@ def generate_pdf(all_data):
 
     table = Table(mytable)
     table.setStyle(style)
-    pdf = SimpleDocTemplate("table_example.pdf", pagesize=letter)
 
-
+    filename = "table_example.pdf"
+    pdf = SimpleDocTemplate(filename, pagesize=letter)
     pdf.build([table])
+    return filename
+
 
 def calculation(request):
     all_data = []
@@ -74,8 +77,18 @@ def calculation(request):
                 data = form.cleaned_data  # Get the cleaned data from the form
                 all_data.append(data)
 
-        generate_pdf(all_data)
-        return render(request, 'success.html')
+        mypdf = generate_pdf(all_data)
+
+        with open(mypdf, "rb") as file:
+            # Create an HttpResponse object with the file content
+            response = HttpResponse(file.read(), content_type="application/pdf")
+
+            # Set the Content-Disposition header to trigger a file download
+            response["Content-Disposition"] = 'attachment; filename="example.pdf"'
+
+        #response = FileResponse(mypdf)
+        return response
+        #return render(request, 'success.html')
 
     else:
         forms = [Calculation(prefix=f'form{i}') for i in range(20)]
